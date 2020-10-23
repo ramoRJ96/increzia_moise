@@ -1,4 +1,4 @@
-let multi = (x: number, y: number): number[][] => {
+let exo1 = (x: number, y: number): number[][] => {
     let tableau = new Array(3);
     for (let i = 0; i < 3; i++) {
         tableau[i] = new Array(3);
@@ -20,4 +20,22 @@ let multi = (x: number, y: number): number[][] => {
     return tableau;
 };
 
-console.log(multi(0, 1));
+console.log(exo1(0, 1));
+
+let tab =[0,3,-5,12,-18,-20];
+
+let exo2_1 = (n, tab) => {
+    let res = 0
+    for(let i = n; i < tab.length; i++) {
+        if(tab[i] > 0) res += tab[i]
+    }
+    return res
+}
+
+console.log(exo2_1(2,tab))
+
+let exo2_2 = (tab) => {
+    return tab.reverse()
+}
+
+console.log(exo2_2(tab))
