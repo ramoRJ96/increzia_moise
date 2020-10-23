@@ -22,20 +22,34 @@ let exo1 = (x: number, y: number): number[][] => {
 
 console.log(exo1(0, 1));
 
-let tab =[0,3,-5,12,-18,-20];
+let tab = [0, 3, -5, 12, -18, -20];
 
 let exo2_1 = (n, tab) => {
-    let res = 0
-    for(let i = n; i < tab.length; i++) {
-        if(tab[i] > 0) res += tab[i]
+    let res = 0;
+    for (let i = n; i < tab.length; i++) {
+        if (tab[i] > 0) res += tab[i];
     }
-    return res
-}
+    return res;
+};
 
-console.log(exo2_1(2,tab))
+console.log(exo2_1(2, tab));
 
 let exo2_2 = (tab) => {
-    return tab.reverse()
-}
+    return tab.reverse();
+};
 
-console.log(exo2_2(tab))
+console.log(exo2_2(tab));
+
+/***
+ * Exercice 3
+ *
+ * réponse 1 : D
+ *
+ * réponse 2 : A
+ *
+ * réponse 3 : A
+ *
+ * réponse 4 : 3 de trèfle
+ *
+ *
+ ***/
